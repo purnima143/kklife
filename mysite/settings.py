@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '5_iwi6&j$qznpvgtfc!4hu)hvqw0(t=y$5039yi#2+z=9rv+q3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['kklife.herokuapp.com']
 
