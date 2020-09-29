@@ -4,3 +4,7 @@
 *.pyc
 __pycache__/
 local_settings.py
+Procfile
+runtime.txt
+db.sqlite3
+

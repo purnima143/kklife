@@ -11,6 +11,8 @@ def blogs(request):
     return render(request, 'kklife/blogs.html')
 
 def joinnow(request):
+    if request.method == 'POST':
+        return render( request, 'kklife/joinnow.html' )
     return render(request, 'kklife/joinnow.html')
 
 def team(request):

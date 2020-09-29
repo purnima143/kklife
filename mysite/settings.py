@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['kklife.herokuapp.com']
 
 INSTALLED_APPS = [
     'kklife.apps.KklifeConfig',
-    'polls.apps.PollsConfig',
+    # 'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
