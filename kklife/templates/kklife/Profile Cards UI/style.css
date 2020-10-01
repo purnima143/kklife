@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+body {
+    background-color: #141414;
+}
+
+
+/* Section*/
+
+section {
+    padding: 160px 0;
+    background-color: inherit;
+}
+
+
+/* Card Wrapper */
+
+.card-wrap {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+/* Card Container */
+
+.card-container {
+    width: 300px;
+    height: 520px;
+    background-color: #ebeef8;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+
+
+/*  Upper Card */
+
+.upper-container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1DA1F2;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+/* Bottom Card */
+
+.bottom-container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  Upper Card Content */
+
+.upper-container .profile {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 200px;
+    z-index: 999;
+    border: 5px solid #ebeef8;
+}
+
+.upper-container h1 {
+    font-size: 19px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+.upper-container p {
+    font-size: 19px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    position: relative;
+    margin-top: -10px;
+    color: #777;
+}
+
+
+/* Bottom Card Content */
+
+.bottom-container p {
+    color: #141414;
+    margin-top: 420px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+button.contact {
+    padding: 10px 40px;
+    border: none;
+    background-color: #445ae3;
+    color: #fff;
+    border-radius: 32px;
+    margin: 16px 0px;
+}
+
+button:hover {
+    background-color: #1DA1F2;
+}
+
+.social li {
+    list-style: none;
+    margin-top: -10px;
+    display: inline-flex;
+    font-size: 20px;
+    padding: 0 32px;
+    justify-content: space-evenly;
+}
+
+.fa-instagram {
+    color: #e1306c;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+
+/* Responsive */
+
+@media screen and (min-width: 700px) {
+    .card-wrap {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .card-container {
+        margin: 15px;
+    }
+}
